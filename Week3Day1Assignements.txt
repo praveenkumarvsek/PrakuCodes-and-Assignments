@@ -1,0 +1,68 @@
+Assignment 1
+
+package org.System;
+
+public class Desktop extends computer {
+	public void DesktopSize() {
+		System.out.println("Inches 32");
+	}
+public static void main(String[] args) {
+	Desktop Home = new Desktop();
+	Home.computerModel();
+	Home.RAM();
+	Home.Storage();
+	Home.DesktopSize();
+}
+
+
+}
+
+Assignement 2
+
+package org.Student;
+
+import org.Department.Department;
+
+public class Student extends Department 
+{
+	public void studentName() {
+		System.out.println("Student Name is Ramesh");
+	}
+	public void studentDept() {
+		System.out.println("Instrumentation and Control Engineering");
+	}
+	public void studentID() {
+		System.out.println("Student ID 14S134");
+	}
+public static void main(String[] args) {
+	Student Pass = new Student();
+	Pass.studentName();
+	Pass.DepartmentName();
+	Pass.studentDept();
+	Pass.studentID();
+	Pass.collegeName();
+	Pass.collegeCode();
+	Pass.collegeRank();
+}
+}
+
+Assignement 3
+
+package org.BankInfo;
+
+public class AxisBankAccount 
+implements Axisbank,BankInfo {
+	
+	public void savings() {
+		System.out.println("Limit upto 10 lakhs no PAN card needed");
+	}
+	public void fixed() {
+		System.out.println("Interest rate for FD is 6&");
+	}
+	@Override
+	public void deposit() {
+		System.out.println("Select FD or RD");
+	}
+
+}
+
